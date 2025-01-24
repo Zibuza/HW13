@@ -39,7 +39,7 @@
 .error{
     margin:  -14px 0;
     color: #FF7979;
-    display: none;
+    
     
 }
 .form .support{
@@ -49,4 +49,14 @@
 .form .support span{
     color: orangered;
     cursor: pointer;
+}
+
+.userCard{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    width: fit-content;
+    height: 300px;
 }
