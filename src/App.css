@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(/assets/deskBg.png);
+  display: grid;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(/assets/mobileBg.png);
+  }
+}

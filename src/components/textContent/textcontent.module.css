@@ -1,0 +1,41 @@
+.textContent {
+    max-width: 525px;
+    color: white;
+    
+    padding: 0 20px; 
+}
+
+
+.textContent h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .textContent h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .textContent p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .textContent h1 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .textContent p {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
